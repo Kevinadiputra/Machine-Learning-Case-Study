@@ -149,7 +149,7 @@ ax.set_ylabel("Gaji (USD)", fontsize=12)
 st.pyplot(fig)
 
 # Insight pada Boxplot
-st.subheader("Insight dari Boxplot")
+st.subheader("Berdasarkan Boxplot tersebut, didapatkan sebagai berikut: ")
 st.write("""
 1. **Semakin tinggi tingkat pengalaman, maka gajinya semakin tinggi.**  
    Hal ini ditunjukkan oleh **median gaji yang lebih tinggi** dibandingkan tingkat pengalaman lainnya.
@@ -174,7 +174,7 @@ ax.set_ylabel("Gaji Rata-Rata (USD)", fontsize=12)
 st.pyplot(fig)
 
 # Insight pada rata-rata gaji
-st.subheader("Insight dari Visualisasi Rata-rata Gaji")
+st.subheader("Berdasarkan visualisasi tersebut dapat diambil insight sebagai berikut: ")
 st.write("""
 1. **Qatar (QA)** memiliki rata-rata gaji tertinggi, yaitu sekitar **300.000 USD**.
    
